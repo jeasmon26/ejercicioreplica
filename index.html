@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="css/stilo.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <h2>Calendario con días festivos de Colombia</h2>
+    <div id="header">
+        <!-- Dropdown Trigger -->
+        <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>2020</a>
+
+        <!-- Dropdown Structure -->
+        <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="#!">2021</a></li>
+            <li><a href="#!">2022</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a href="#!">2023</a></li>
+        </ul>
+        <a href="contact.html" rel="contact">Contacto</a>
+    </div>
+    <div id="years">
+        <div class="meses">
+            <h3>Enero</h3>
+            <ul class="semana">
+                <li>Lu</li>
+                <li>Ma</li>
+                <li>Mi</li>
+                <li>Ju</li>
+                <li>Vi</li>
+                <li>Sa</li>
+                <li>Do</li>
+            </ul>
+            <ul class="dias">
+                <li></li>
+                <li></li>
+                <li class="festivo">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <ul class="dias">
+                <li class="festivo">6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+            </ul>
+            <ul>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+            </ul>
+            <ul>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+            </ul>
+            <ul>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="meses">
+            <h3>Febrero</h3>
+            <ul class="semana">
+                <li>Lu</li>
+                <li>Ma</li>
+                <li>Mi</li>
+                <li>Ju</li>
+                <li>Vi</li>
+                <li>Sa</li>
+                <li>Do</li>
+            </ul>
+            <ul class="dias">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>1</li>
+                <li>2</li>
+            </ul>
+            <ul class="dias">
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+            </ul>
+            <ul>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+            </ul>
+            <ul>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+            </ul>
+            <ul>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="meses">
+            <h3>Marzo</h3>
+            <ul class="semana">
+                <li>Lu</li>
+                <li>Ma</li>
+                <li>Mi</li>
+                <li>Ju</li>
+                <li>Vi</li>
+                <li>Sa</li>
+                <li>Do</li>
+            </ul>
+            <ul class="dias">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>1</li>
+            </ul>
+            <ul class="dias">
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+            </ul>
+            <ul>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+            </ul>
+            <ul>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+            </ul>
+            <ul>
+                <li class="festivo">23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+            </ul>
+            <ul>
+                <li>30</li>
+                <li>31</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="meses">
+            <h3>Abril</h3>
+            <ul class="semana">
+                <li>Lu</li>
+                <li>Ma</li>
+                <li>Mi</li>
+                <li>Ju</li>
+                <li>Vi</li>
+                <li>Sa</li>
+                <li>Do</li>
+            </ul>
+            <ul class="dias">
+                <li></li>
+                <li></li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <ul class="dias">
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li class="festivo">9</li>
+                <li class="festivo">10</li>
+                <li>11</li>
+                <li>12</li>
+            </ul>
+            <ul>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+            </ul>
+            <ul>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+            </ul>
+            <ul>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="meses">
+            <h3>Mayo</h3>
+            <ul class="semana">
+                <li>Lu</li>
+                <li>Ma</li>
+                <li>Mi</li>
+                <li>Ju</li>
+                <li>Vi</li>
+                <li>Sa</li>
+                <li>Do</li>
+            </ul>
+            <ul class="dias">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li class="festivo">1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+            <ul class="dias">
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+            </ul>
+            <ul>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+            </ul>
+            <ul>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+            </ul>
+            <ul>
+                <li class="festivo">25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+            </ul>
+            <!--<ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>-->
+        </div>
+        <div class="meses">
+            <h3>Junio</h3>
+            <ul class="semana">
+                <li>Lu</li>
+                <li>Ma</li>
+                <li>Mi</li>
+                <li>Ju</li>
+                <li>Vi</li>
+                <li>Sa</li>
+                <li>Do</li>
+            </ul>
+            <ul class="dias">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+            </ul>
+            <ul class="dias">
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+            </ul>
+            <ul>
+                <li class="festivo">15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+            </ul>
+            <ul>
+                <li class="festivo">22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+            </ul>
+            <ul>
+                <li class="festivo">29</li>
+                <li>30</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="meses">
+            <h3>Julio</h3>
+            <ul class="semana">
+                <li>Lu</li>
+                <li>Ma</li>
+                <li>Mi</li>
+                <li>Ju</li>
+                <li>Vi</li>
+                <li>Sa</li>
+                <li>Do</li>
+            </ul>
+            <ul class="dias">
+                <li></li>
+                <li></li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <ul class="dias">
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+            </ul>
+            <ul class="dias">
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+            </ul>
+            <ul class="dias">
+                <li class="festivo">20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+            </ul>
+            <ul class="dias">
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="meses">
+            <h3>Agosto</h3>
+            <ul class="semana">
+                <li>Lu</li>
+                <li>Ma</li>
+                <li>Mi</li>
+                <li>Ju</li>
+                <li>Vi</li>
+                <li>Sa</li>
+                <li>Do</li>
+            </ul>
+            <ul class="dias">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>1</li>
+                <li>2</li>
+            </ul>
+            <ul class="dias">
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li class="festivo">7</li>
+                <li>8</li>
+                <li>9</li>
+            </ul>
+            <ul class="dias">
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+            </ul>
+            <ul class="dias">
+                <li class="festivo">17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+            </ul>
+            <ul class="dias">
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+            </ul>
+            <ul class="dias">
+                <li>31</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="meses">
+            <h3>Septiembre</h3>
+            <ul class="semana">
+                <li>Lu</li>
+                <li>Ma</li>
+                <li>Mi</li>
+                <li>Ju</li>
+                <li>Vi</li>
+                <li>Sa</li>
+                <li>Do</li>
+            </ul>
+            <ul class="dias">
+                <li></li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+            </ul>
+            <ul class="dias">
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+            </ul>
+            <ul class="dias">
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+            </ul>
+            <ul class="dias">
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+            </ul>
+            <ul class="dias">
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="meses">
+            <h3>Octubre</h3>
+            <ul class="semana">
+                <li>Lu</li>
+                <li>Ma</li>
+                <li>Mi</li>
+                <li>Ju</li>
+                <li>Vi</li>
+                <li>Sa</li>
+                <li>Do</li>
+            </ul>
+            <ul class="dias">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+            <ul class="dias">
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+            </ul>
+            <ul class="dias">
+                <li class="festivo">12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+            </ul>
+            <ul class="dias">
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+            </ul>
+            <ul class="dias">
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="meses">
+            <h3>Noviembre</h3>
+            <ul class="semana">
+                <li>Lu</li>
+                <li>Ma</li>
+                <li>Mi</li>
+                <li>Ju</li>
+                <li>Vi</li>
+                <li>Sa</li>
+                <li>Do</li>
+            </ul>
+            <ul class="dias">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>1</li>
+            </ul>
+            <ul class="dias">
+                <li class="festivo">2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+            </ul>
+            <ul class="dias">
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+            </ul>
+            <ul class="dias">
+                <li class="festivo">16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+            </ul>
+            <ul class="dias">
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+            </ul>
+            <ul class="dias">
+                <li>30</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="meses">
+            <h3>Diciembre</h3>
+            <ul class="semana">
+                <li>Lu</li>
+                <li>Ma</li>
+                <li>Mi</li>
+                <li>Ju</li>
+                <li>Vi</li>
+                <li>Sa</li>
+                <li>Do</li>
+            </ul>
+            <ul class="dias">
+                <li></li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+            </ul>
+            <ul class="dias">
+                <li>7</li>
+                <li class="festivo">8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+            </ul>
+            <ul class="dias">
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+            </ul>
+            <ul class="dias">
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li class="festivo">25</li>
+                <li>26</li>
+                <li>27</li>
+            </ul>
+            <ul class="dias">
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div id="masYears">
+        <h3>¿Otros años?</h3>
+        <div>
+            <a href="2020.html" rel="ano">2020</a>
+            <a href="2021.html" rel="ano">2021</a>
+            <a href="2022.html" rel="ano">2022</a>
+            <a href="2023.html" rel="ano">2023</a>
+            <a href="2024.html" rel="ano">2024</a>
+            <a href="2025.html" rel="ano">2025</a>
+            <a href="2026.html" rel="ano">2026</a>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var elems = document.querySelectorAll('.dropdown-trigger');
+                var instances = M.Dropdown.init(elems, options);
+            });
+        </script>
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
